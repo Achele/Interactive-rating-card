@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://achele.github.io/Interactive-rating-card/
 
 ## My process
 
@@ -43,7 +43,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
@@ -52,8 +51,9 @@ Use this section to recap over some of your major learnings while working throug
 
 ### Continued development
 
+- Javascript
+
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - https://www.frontendmentor.io/profile/Achele
 - Twitter - https://www.twitter.com/ojoachele
