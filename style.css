@@ -151,9 +151,9 @@ border-radius: 10px;
     font-size: 11px;
     text-align: center;
     color: aliceblue;
-    border: 2px solid white;
     margin-bottom: 0;
   }
+
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
