@@ -156,6 +156,7 @@ border-radius: 10px;
 
   .attribution a {
     color: hsl(228, 45%, 44%);
+    padding: .5em;
   }
 
 
