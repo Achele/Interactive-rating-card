@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+img,
+picture {
+    max-width: 100%;
+}
+
+.container {
+    width: 70%;
+    max-width: 350px;
+    background: hsl(213, 19%, 18%);
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.star-icon {
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 1em;
+   background-color: hsl(213, 19%, 22%); 
+}
+
+/* Typography */
+
+h1 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1.5rem;
+    font-size: .9em;
+    line-height: 1.5em;
+  }
+
+
+input[type="radio"] {
+    -webkit-appearance: none;
+   appearance: none;
+   -moz-appearance: none;
+}
+
+input[type="radio"]:hover+label {
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+}
+
+input[type="radio"]:checked+label {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+label {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 22%);
+    width: 30px;
+    height: 30px;
+    color: hsl(216, 12%, 54%);
+    font-size: .8em;
+    font-weight: 700;
+    padding: 1.5em;
+    /* cursor: pointer; */
+
+}
+
+
+.rate-us {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+    /* margin: 1.5em 0; */
+}
+
+.thank-you-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* display: none; */
+}
+
+.ratings-feedbck {
+color: hsl(25, 97%, 53%);
+background-color: hsl(213, 19%, 22%);
+padding: .3em .5em;
+border-radius: 10px;
+}
+
+.submit {
+    width: 90%;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    color: hsl(0, 0%, 100%);
+    margin: 0 1em;
+    font-family: inherit;
+    font-weight: bold;
+    letter-spacing: .1em;
+    /* cursor: pointer; */
+}
+
+.submit:hover{
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer; 
+}
+
+.display {
+    display: none;
+}
+
+.thank-you-msg img{
+    margin-bottom: 1rem;
+}
+
+/* footer styling */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: aliceblue;
+    border: 2px solid white;
+    margin-bottom: 0;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+@media (min-width: 600px) {
+    .container {
+        width: 100%;
+        border-radius: 20px;
+        margin: 8em auto;
+    }
+}
