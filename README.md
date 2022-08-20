@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/
+This is a solution to the Interactive rating component challenge on Frontend Mentor https://www.frontendmentor.io/challenges/
 
 ## Table of contents
 
@@ -29,7 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src ="images/mobile view.png">
+<img src ="images/desktop view.png">
+
 
 ### Links
 
