@@ -18,6 +18,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 1.5em;
     
 }
 
@@ -27,11 +28,12 @@ picture {
 }
 
 .container {
-    width: 70%;
-    max-width: 350px;
+    width: 100%;
+    max-width: 400px;
     background: hsl(213, 19%, 18%);
     padding: 2em;
-    border-radius: 10px;
+    border-radius: 12px;
+    margin: 7.5em auto;
 }
 
 .star-icon {
